@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN wget -q https://github.com/v2ray/v2ray-core/releases/latest/download/v2ray-linux-64.zip \
+RUN wget -q https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip \
 	&& mkdir v2ray-linux-64 \
 	&& unzip -q v2ray-linux-64.zip -d v2ray-linux-64 \
 	&& mkdir /opt/v2ray \
